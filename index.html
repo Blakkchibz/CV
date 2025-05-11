@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV with Slider and Scroll Effects</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cv-container">
+    <h1 class="scroll-fade">Martins Chibueze Awesome</h1><hr>
+    <p class="scroll-fade">Beginner Web Developer | Beginner Flutter Developer | 4th year Software Engineering Student(FUTA)</p>
+
+    <div class="slider scroll-slide">
+      <center>
+      <img src="1.jpg" class="slide active" alt="Image 1" />
+      <img src="2.jpg" class="slide" alt="Image 2" />
+      <img src="3.jpg" class="slide" alt="Image 3" />
+      <img src="4.jpg" class="slide" alt="Image 4" />
+      <img src="5.jpg" class="slide" alt="Image 5" />
+      </center>
+    </div>
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+
+    <section class="info scroll-fade">
+      <h2>Profile</h2>
+      <p>A motivated and creative Software Engineering student with a foundation in front-end web development and strong interest in mobile app development, game design and creative storytelling. Passionate about crafting interactive digital experiences and currently expanding skills in Flutter for cross-platform development. Have a balance of technical ability and critical thinking.<br><br>Seeking an Internship in order to broaden skills and expertise.</p>
+
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Front-end Development:</strong> Proficient in HTML and CSS; working knowledge of JavaScript for interactive front-end development.</li><br>
+        <li><strong>Mobile Development:</strong> Learning Flutter and Dart to build responsive, cross-platform mobile applications.</li><br>
+        <li><strong>Creative Writing:</strong> Beginner Author working on writing webnovels. Skilled in character building and narrative.</li><br>
+        <li><strong>Financial Management:</strong> Currently serving as Financial Secretary for the Association of Software Engineering Students (ASENS) FUTA Chapter.</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> thechibuezemartins@gmail.com</p>
+      <p><strong>Number:</strong> 08072008707</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
